@@ -1,3 +1,76 @@
 .memorysLeft{
-    background-color: ;
+    
+    grid-area: memorysLeft;
+    background-color: var(--colorFondoMemory);
+    margin-top: 40px;
 }
+
+.memorysLeft__imagen{
+    padding-top: 30px;
+}
+
+
+.memorys{
+    grid-area: memorys;
+    background-color: var(--colorFondoMemory);
+    margin-top: 40px;
+    
+    text-align: center;
+}
+
+.memorys__titulo{
+    
+    font-family: "Cardo", bold;
+    font-weight: bold;
+    color: var(--colorBlanco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.memorys__texto{
+    color: var(--colorBlanco);
+    font-family: "Lato", sans-serif;
+    margin-bottom: 20px;
+    
+    
+}
+
+.memorys__button{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    border-radius: 10px;
+    height: 50px;
+    border: 2px solid var(--colorBlanco);
+    color: var(--colorBlanco);
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+
+}
+
+
+
+
+.memorysRight{
+   
+    grid-area: memorysRight;
+    background-color: var(--colorFondoMemory);
+    margin-top: 40px;
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    
+}
+
+
+.memorysRight__imagen{
+    margin-bottom: 30px;
+}
+
+
