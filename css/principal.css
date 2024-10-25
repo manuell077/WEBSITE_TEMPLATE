@@ -15,7 +15,8 @@
   background-color: var(--color__fondo);
   grid-template-areas:
     'portada__text portada__img portada__img'
-    'memorysLeft memorys memorysRight';
+    'memorysLeft memorys memorysRight'
+    'titulo titulo titulo';
     
   
   
