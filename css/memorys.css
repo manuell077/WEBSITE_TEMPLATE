@@ -26,7 +26,7 @@
     align-items: center;
 }
 .memorys__titulo{
-  text-align: center;
+    text-align: center;
     font-family: "Cardo", bold;
     font-weight: bold;
     color: var(--colorBlanco);
@@ -74,20 +74,98 @@
 }
 .portada__cuatro{
   display: flex;
-  flex-direction: row;
   background-color: var(--colorFondoMemory);
+  position: relative;
 }
-.text__fourleft{
-  width: 80%;
-  height: 100vh;
+.text__left{
   display: flex;
-  flex-direction: column;
-  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+.textos{
+   padding: 40px 80px;
+   color:var(--colorBlanco);
+   
 }
 .text__titulo{
+  text-align: center;
+  margin-top:40px;
+  color:var(--colorBlanco);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.portada__title{
+  width: 50%;
+  font-family: "Cardo", bold;
+  font-weight: bold;
+  color: var(--colorBlanco);
+  font-size: 45px;
+}
+.text__titlee{
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 15px;
+}
+.text__subtitle{
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+.content__img{
+ margin-top: 25px;
+ padding: 40px 0;
+ width: 100%;
+ margin-bottom: 25px;
+}
+.img__four{
+  width: 100%;
+}
+.decoration{
+  position: absolute;
+  top:84%;
+  left:1px;
+  width:20%;
+}
+
+/* pagina 6 */
+.portada__sexta{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top:10%;
+}
+.decoration__top{
+  position: absolute;
+  width: 20%;
+  top:0px;
+  left:0px;
+}
+.cajas__texto{
+  display: flex;
+  margin-top: 30px;
+  padding:20px 0px;
 
 }
 
-.img__four{
- width: 30%;
+.container__text{
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+  border: 1px solid #000;;
+}
+.six__title{
+  margin:30px;
+}
+.img__perfil{
+  width: 20%;
 }
