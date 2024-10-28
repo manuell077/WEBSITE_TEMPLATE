@@ -1,25 +1,32 @@
+.portada__secundaria{
+  width: 100%;
+  display: flex;  
+  justify-content: space-between;
+  background-color: var(--colorFondoMemory);
+  margin-top: 40px;
+  height:100%;
+  gap: 30PX;
+}
+.content__text{
+  display: flex;
+  justify-content: center;
+}
 .memorysLeft{
-    
-    grid-area: memorysLeft;
-    background-color: var(--colorFondoMemory);
-    margin-top: 40px;
+  width: 45%;
 }
-
 .memorysLeft__imagen{
-    padding-top: 30px;
+  width: 100%;
+  padding-top: 40px;
 }
-
-
 .memorys{
-    grid-area: memorys;
-    background-color: var(--colorFondoMemory);
-    margin-top: 40px;
-    
-    text-align: center;
+    margin-left:-100px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
 .memorys__titulo{
-    
+  text-align: center;
     font-family: "Cardo", bold;
     font-weight: bold;
     color: var(--colorBlanco);
@@ -28,17 +35,14 @@
     justify-content: center;
     font-size: 40px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
-
 .memorys__texto{
+    width: 60%;
     color: var(--colorBlanco);
     font-family: "Lato", sans-serif;
-    margin-bottom: 20px;
-    
-    
+    margin-bottom: 50px;
 }
-
 .memorys__button{
     margin: 0 auto;
     display: flex;
@@ -51,26 +55,39 @@
     color: var(--colorBlanco);
     font-family: "Lato", sans-serif;
     font-weight: bold;
-
+    cursor: pointer;
+    margin-bottom: 50px;
 }
-
-
-
-
 .memorysRight{
-   
-    grid-area: memorysRight;
-    background-color: var(--colorFondoMemory);
+    width: 4%;
+    height: 100%;
     margin-top: 40px;
     display: flex;
     align-items: end;
-    justify-content: flex-end;
-    
-}
-
-
-.memorysRight__imagen{
+    justify-content: center;
     margin-bottom: 30px;
+    margin-right: 16%;
+
+}
+.memorysRight__imagen{
+    margin-bottom: 60px;
+}
+.portada__cuatro{
+  display: flex;
+  flex-direction: row;
+  background-color: var(--colorFondoMemory);
+}
+.text__fourleft{
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.text__titulo{
+
 }
 
-
+.img__four{
+ width: 30%;
+}
