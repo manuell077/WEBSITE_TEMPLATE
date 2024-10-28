@@ -1,0 +1,56 @@
+.containerInfoPlace{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.Infoplace{
+    margin-top: 90px;
+}
+
+
+.ImagenInfo{
+    position: relative;
+    
+}
+
+.ImagenInfo__principal{
+    padding: 60px;
+    
+    object-fit: cover;
+    height: 700px;
+    width: 600px;
+
+    
+}
+
+.ImagenInfo__curita{
+    position: absolute;
+    left: 20px;
+    top: 30%;
+}
+
+.InfoText{
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+}
+
+.InfoText__titulo{
+    font-family: "Cardo", bold;
+    width: 300px;
+    text-decoration: underline;
+}
+
+.InfoText__cuerpo{
+    font-family: "Lato", sans-serif;
+    width: 400px;
+}
+
+.InfoText__arrow{
+    display: block;
+    margin-top: 60px;
+    width: 200px;
+    font-size: 60px;
+    text-align: right;
+}

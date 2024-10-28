@@ -1,25 +1,70 @@
 .titles{
-    margin-top: 80px;
-    grid-area: titulo;
-    margin-left:  auto;
+    display: flex;
+    justify-content: space-between;
     
     
+}
+
+.titles__container{
+    width: 350px;
+}
+
+.textoGrande{
+    margin: 0 auto;
+    width: 500px;
     
 }
 
 .textoGrande__avion{
     display: block;
-    width: 40px;
     margin: 0 auto;
+    width: 40px;
+}
 
+.textoGrande__titulo{
+    margin-top: 70px;
+    font-size: 60px;
+    font-family: "Cardo", bold;
+    font-weight: bold;
 }
 
 
+.textoGrande__scrill{
+    margin-top: 30px;
+    width: 200px;
+}
 
 
 .scrilbbleTitulos{
-    grid-area: scrillTitulos;
-    margin-left: auto;
-    width: 200px;
+    height: 600px;
+    width: 350px;
+    display: flex;
+    justify-content: end;
 }
+
+.scrilbbleTitulos__imagen{
+    width: 150px;
+    
+    
+}
+
+.textoGrande__never{
+    
+    display: inline;
+    text-decoration: underline;
+}
+
+.textoGrande__subMenus{
+    margin-top: 60px;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+
+
+
+
+
+
 
