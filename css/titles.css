@@ -1,4 +1,25 @@
 .titles{
+    margin-top: 80px;
     grid-area: titulo;
-    ma
+    margin-left:  auto;
+    
+    
+    
 }
+
+.textoGrande__avion{
+    display: block;
+    width: 40px;
+    margin: 0 auto;
+
+}
+
+
+
+
+.scrilbbleTitulos{
+    grid-area: scrillTitulos;
+    margin-left: auto;
+    width: 200px;
+}
+

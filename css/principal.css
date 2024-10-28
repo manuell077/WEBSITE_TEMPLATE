@@ -7,22 +7,17 @@
 }
 
 .portada{
-  display: grid;
-  grid-template-columns:1fr 1fr 1fr ;
-  grid-template-rows:repeat(8,400px);
-  height: 100vh;
-  margin-top: calc(20px + 30px);
+  display: flex;
+  flex-direction: column;
+  height: 150vh;
   background-color: var(--color__fondo);
-  grid-template-areas:
-    'portada__text portada__img portada__img'
-    'memorysLeft memorys memorysRight'
-    'titulo titulo titulo';
+
     
   
   
 }
 .text{
-  grid-area: portada__text;
+  
   width: 100%;
   display: flex;
   flex-direction: column;

@@ -2,6 +2,7 @@
 @import url('customProperties.css');
 @import url('memorys.css');
 @import url('principal.css');
+@import url('titles.css');
 
 *{  
     padding: 0;
