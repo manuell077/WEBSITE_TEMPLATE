@@ -1,0 +1,35 @@
+.destino{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 40px;
+    
+}
+
+.destinoInfo{
+    width: 470px;
+}
+
+.destinoInfo__titulo{
+     margin-bottom: 70px;
+     font-size: 50px;
+}
+
+
+
+.destinoContenido{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.destinoContenido__mas{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.destinoInfo__space{
+    margin-top: 20px;
+}
+
