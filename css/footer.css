@@ -1,0 +1,73 @@
+/* footer */
+
+.pag__final{
+  padding: 30px 0px;
+  margin-top: 10%;
+  width:100%;
+  background-color: var(--fondoFooter);
+  display: flex;
+  gap: 10px;
+}
+.text__footer{
+  
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  height: 100%;
+  width: 30%;
+}
+.text__principal{
+  padding: 0px 30px;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+}
+.decoration__footer{
+  margin-top: 90px;
+  width: 300px;
+}
+.info{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.menu__footer{
+  margin-left: 70px;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+.footer__title{
+  font-size: 16px;
+  font-family: "Lato", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.menu_infomation{
+  padding: 0px 60px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between; 
+  gap: 10px;
+}
+.menu__info{
+  height: 40px;
+  width: 120px;
+}
+.info__items{
+  color: var(--color__button);
+   font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: 600;
+  margin: 15px;
+}
+.derechos__autor{
+  color: var(--color__button);
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
