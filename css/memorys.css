@@ -76,6 +76,7 @@
   display: flex;
   background-color: var(--colorFondoMemory);
   position: relative;
+  
 }
 .text__left{
   display: flex;
@@ -117,13 +118,15 @@
   font-size: 14px;
 }
 .content__img{
+  
  margin-top: 25px;
  padding: 40px 0;
  width: 100%;
  margin-bottom: 25px;
 }
 .img__four{
-  width: 100%;
+  
+  width: 600px;
 }
 .decoration{
   position: absolute;
