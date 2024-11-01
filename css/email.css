@@ -61,3 +61,18 @@
     border: 1px solid black;
 }
 
+@media(max-width:1182px){
+    .imagenDestino__img{
+
+        height: 550px;
+    }
+}
+
+@media(max-width:1004px){
+    .imagenDestino{
+        display: none;
+    }
+    .emails{
+        padding: 30px;
+    }
+}
