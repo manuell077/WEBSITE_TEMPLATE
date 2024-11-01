@@ -116,3 +116,69 @@ display: flex;
   margin-top:-20px;
   width: 70px;
 }
+
+@media(max-width:790px){
+  .portada__principal{
+    display: flex;
+    flex-direction: column;
+  }
+  .subtitle__left{
+    margin:40px 40px 40px 0px;
+  }
+ .text__left{
+  font-size:50px;
+ }
+ .img__rigth{
+  width: 80%;
+  margin-bottom:-30px;
+  margin-right:20px;
+  margin-left: 20px;
+ }
+ .stylo__rigth{
+   width: 35px;
+   height: 578px
+ }
+ .font__color{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+ }
+ .stylos__left{
+   width: 50px;
+ }
+ .textoGrande__titulo{
+  font-size:8vw;
+
+}
+.scrilbbleTitulos__imagen {
+  width: 75px;
+  height: 300px;
+
+}
+.imagen__content{
+  margin:20px;
+}
+.containerInfoPlace{
+  display: flex;
+  flex-direction: column;
+}
+.Infoplace{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.Infoplace__imagen{
+  width: 90%;
+}
+.InfoText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.InfoText__cuerpo{
+  padding: 0px 30px;
+}
+}
