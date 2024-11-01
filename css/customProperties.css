@@ -1,8 +1,11 @@
 :root{
     --colorTextoTitulos: #abaaab;
+    --colorSubtitulos:#6d6d6d;
     --colorNegro: #000;
     --colorFondoMemory: #111111 ;
     --color__fondo:#e9e7e7;
     --color__button:#232323;
     --colorBlanco: #fff;
+    --subtitle:#a7a6a6;
+    --fondoFooter:#c4c4c4;
 }

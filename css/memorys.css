@@ -106,16 +106,18 @@
   font-size: 45px;
 }
 .text__titlee{
-  font-family: "Roboto", serif;
+ font-family: "Lato", serif;
   font-weight: 900;
   font-style: normal;
   font-size: 15px;
 }
+
 .text__subtitle{
-  font-family: "Roboto", serif;
-  font-weight: 400;
+   font-family: "Lato", serif;
+  font-weight: 900;
   font-style: normal;
   font-size: 14px;
+  color: var(--subtitle);
 }
 .content__img{
   
@@ -135,40 +137,3 @@
   width:20%;
 }
 
-/* pagina 6 */
-.portada__sexta{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  margin-top:10%;
-}
-.decoration__top{
-  position: absolute;
-  width: 20%;
-  top:0px;
-  left:0px;
-}
-.cajas__texto{
-  display: flex;
-  margin-top: 30px;
-  padding:20px 0px;
-
-}
-
-.container__text{
-  padding: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 60%;
-  height: 100%;
-  border: 1px solid #000;;
-}
-.six__title{
-  margin:30px;
-}
-.img__perfil{
-  width: 20%;
-}
