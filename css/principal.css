@@ -5,6 +5,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
 .cuerpo{
   background-color: var(--color__fondo);
 }
@@ -253,4 +255,19 @@ margin: -3px
   margin-bottom: 0px;
   display: block;
 }
+
+.ImagenInfo__principal{
+    padding: 0px;
+    width: 360px;
+    height: 300px;
+}
+
+.ImagenInfo__curita{
+  display: none;
+}
+
+.borde{
+  display: none;
+}
+
 }
