@@ -120,6 +120,7 @@ display: flex;
 }
 
 @media(max-width:790px){
+ 
   .portada__principal{
     display: flex;
     flex-direction: column;
@@ -180,7 +181,11 @@ display: flex;
   justify-content: center;
   align-items: center;
 }
+.titles__container{
+width: 0px;
+}
 .InfoText__cuerpo{
+  width: 100%;
   padding: 0px 30px;
 }
 .portada__cuatro{
@@ -191,11 +196,18 @@ display: flex;
     width: 100%;
     font-size: 35px;
 }
+.portada__sexta{
+  margin-bottom: 10px ;
+}
 .content__img{
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 10px;
+}
+.titles{
+ display: flex;
+ margin-bottom: 100px;
 }
 .img__four {
     width: 70%;
@@ -207,11 +219,11 @@ display: flex;
   display: none;
 }
 .title__six{
+  width: 100%;
   display: flex;
   justify-content: center;
 }
 .text__six{
-
   width: 60%;
  font-size: 30px;
 }
@@ -255,7 +267,11 @@ margin: -3px
   margin-bottom: 0px;
   display: block;
 }
-
+.img__borde{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
 .ImagenInfo__principal{
     padding: 0px;
     width: 360px;
@@ -265,7 +281,9 @@ margin: -3px
 .ImagenInfo__curita{
   display: none;
 }
-
+.scrilbbleTitulos{
+  display: none;
+}
 .borde{
   display: none;
 }
