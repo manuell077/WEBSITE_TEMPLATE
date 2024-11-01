@@ -22,8 +22,9 @@
 }
 
 .textoGrande__titulo{
+  
     margin-top: 70px;
-    font-size: 60px;
+    font-size: 5vw;
     font-family: "Cardo", bold;
     font-weight: bold;
 }
