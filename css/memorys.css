@@ -137,3 +137,30 @@
   width:20%;
 }
 
+@media(max-width:1310px){
+      
+  
+     .memorysRight{
+       display: none;
+     }
+
+     .memorysLeft{
+      display: none;
+     }
+
+     .portada__secundaria{
+      justify-content: center;
+     }
+
+     .memorys__texto{
+      width: 100%;
+      text-align: center;
+     }
+
+     .memorys{
+      width: 50%;
+      justify-content: center;
+      margin-left: 0px;
+     }
+  
+}

@@ -54,3 +54,18 @@
     font-size: 60px;
     text-align: right;
 }
+
+@media(max-width: 1379px){
+    .InfoText{
+        display: block;
+    }
+
+    .InfoText__titulo{
+        margin-bottom: 20px;
+    }
+
+    .Infoplace{
+        margin-top: 180px;
+    }
+}
+
