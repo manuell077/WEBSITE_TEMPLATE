@@ -119,6 +119,61 @@ display: flex;
   width: 70px;
 }
 
+
+@media(max-width:1306px){
+  .font__color{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .stylo__rigth{
+    display: none;
+
+  }
+
+  .stylos__left{
+    display: none;
+  }
+
+  .img__borde{
+    justify-content: center;
+    
+  }
+}
+
+
+@media(max-width:1375px){
+    .textos{
+      padding-top: 5px;
+    }
+}
+
+@media(max-width:1230px){
+    .decoration{
+      display: none;
+    }
+}
+
+@media(max-width:1380px){
+    .img__four{
+       width: 90%;
+    }
+}
+
+@media(max-width:1062px){
+     
+     .content__img{
+      display: flex;
+      align-items: center;
+     }
+     
+     
+}
+
+
+
+
 @media(max-width:790px){
   .portada__principal{
     display: flex;

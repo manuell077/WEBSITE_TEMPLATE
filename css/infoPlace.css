@@ -69,3 +69,22 @@
     }
 }
 
+
+@media(max-width:1049px){
+    .containerInfoPlace{
+        
+        display: block;
+        margin: 0 auto;
+    }
+    .Infoplace{
+        text-align: center;
+    }
+
+    .InfoText{
+        justify-items: center;
+        text-align: center;
+    }
+    .InfoText__arrow{
+        text-align: center;
+    }
+}
