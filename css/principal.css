@@ -181,4 +181,76 @@ display: flex;
 .InfoText__cuerpo{
   padding: 0px 30px;
 }
+.portada__cuatro{
+  display: flex;
+  flex-direction: column;
+}
+.portada__title {
+    width: 100%;
+    font-size: 35px;
+}
+.content__img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.img__four {
+    width: 70%;
+}
+.decoration {
+    top: 96%;
+}
+.decoration__top{
+  display: none;
+}
+.title__six{
+  display: flex;
+  justify-content: center;
+}
+.text__six{
+
+  width: 60%;
+ font-size: 30px;
+}
+.cajas__texto {
+  display: flex;
+ flex-direction: column;
+}
+.content__flecha{
+  display: none;
+}
+.content__right{
+  display: none;
+
+}
+.decoration__botom{
+  display: none;
+}
+.pag__final{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.text__footer{
+ width: 100%;
+}
+.decoration__footer{
+  display: none;
+}
+.menu_infomation{
+  padding: 0px 0px;
+}
+.menu__info{
+ font-size: 15px;
+margin: -3px
+}
+.menu__footer {
+    margin-left: 13px;
+  }
+.derechos__autor{
+  margin-top: 170px;
+  margin-bottom: 0px;
+  display: block;
+}
 }
