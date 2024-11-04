@@ -143,6 +143,12 @@ display: flex;
 }
 
 
+
+
+
+
+
+
 @media(max-width:1375px){
     .textos{
       padding-top: 5px;
@@ -252,7 +258,9 @@ width: 0px;
     font-size: 35px;
 }
 .portada__sexta{
+  
   margin-bottom: 10px ;
+  
 }
 .content__img{
   display: flex;
@@ -285,6 +293,8 @@ width: 0px;
 .cajas__texto {
   display: flex;
  flex-direction: column;
+  
+  
 }
 .content__flecha{
   display: none;
@@ -343,4 +353,30 @@ margin: -3px
   display: none;
 }
 
+.portada__title{
+  margin-bottom: 30px;
+}
+
+
+
+
+}
+
+@media(max-width:1000px){
+    
+    .menu_infomation{
+      padding: 0;
+      gap: 10px;
+      text-align: center;
+    }
+
+    .menu__info{
+      
+      text-align:center;
+    }
+
+    .info{
+      width: 100%;
+      
+    }
 }

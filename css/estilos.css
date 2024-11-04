@@ -59,27 +59,18 @@
 
 }
 
-@media(max-width:602px){
-       
-    .menus{
-        flex: 1 0 300px ;
-    }
 
-
-}
 
 @media(max-width: 813px){
     
     .header{
         flex-wrap: wrap;
+        gap:10px;
         justify-content: center;
     }
 
 
-    .header__boton{
-        
-        width: 120px;
-    }
+   
 }
 
 

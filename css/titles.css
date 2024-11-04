@@ -63,7 +63,12 @@
 }
 
 
+@media(max-width:560px){
 
+    .textoGrande__titulo{
+        text-align: center;
+    }
+}
 
 
 

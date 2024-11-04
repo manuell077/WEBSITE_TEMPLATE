@@ -94,3 +94,81 @@
 .flecha__right{
   font-size:40px
 }
+
+@media(max-width:1180px){
+    
+
+     .portada__sexta{
+         position: static;
+         
+     }
+
+     .decoration__botom{
+       display: none;
+     }
+
+     .decoration__top{
+      display: none;
+     }
+
+     .cajas__texto{
+        width: 80%;
+     }
+}
+
+@media(max-width:1130px){
+     
+      .six__title{
+         margin: 30px auto;
+      }
+}
+
+@media(max-width:931px){
+     
+     .content__right{
+        
+        width: 50px;
+     }
+
+     .content__flecha{
+        width: 50px;
+     }
+}
+
+@media(max-width:910px){
+     
+     .container__text{
+        padding: 20px;
+     }
+
+     .content__right{
+        
+      width: 40px;
+      right: -30px;
+   }
+
+   .content__flecha{
+      width: 40px;
+      left: -30px;
+   }
+
+
+
+
+}
+
+@media(max-width:790px){
+    
+  .container__text{
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+
+
+@media(max-width:376px){
+     
+  .container__text{
+    width:90%;
+  }
+}
