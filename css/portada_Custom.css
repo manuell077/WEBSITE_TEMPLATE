@@ -1,4 +1,4 @@
-.portada__sexta{
+.customs{
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -7,7 +7,7 @@
   position: relative;
   margin-top:10%;
 }
-.title__six{
+.custom__title{
   font-family: "Cardo", serif;
   font-weight: 700;
   font-style: normal;
@@ -15,14 +15,14 @@
   width: 500px;
   text-align: center;
 }
-.decoration__top{
+.customs__decoration{
   position: absolute;
   width: 20%;
   top:-10px;
   left:0px;
 }
 
-.cajas__texto{
+.flechas{
   display: flex;
   margin-top: 30px;
   padding:20px 0px;
@@ -30,7 +30,7 @@
   position: relative;
 
 }
-.container__text{
+.perfiles{
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -40,16 +40,16 @@
   height: 350px;
   border: 3px solid var(--colorNegro);
 }
-.img__perfil{
+.perfiles__img{
   width: 41%;
 }
-.six__title{
+.perfiles__title{
   font-family: "Lato", serif;
   font-weight: 900;
   font-style: normal;
   margin:30px;
 }
-.six__subtitle{
+.perfiles__subtitle{
   color: var(--colorSubtitulos);
   text-align: center;
   font-family: "Lato", serif;
@@ -62,7 +62,7 @@
   top: 100%;
   left: 70%;
 }
-.content__flecha{
+.flechas__container{
   background-color: var(--colorBlanco);
   position: absolute;
   left: -30px;  
@@ -78,7 +78,7 @@
 .icon__left{
  font-size: 40px;  
 }
-.content__right{
+.estilo{
   background-color: var(--colorBlanco);
   position: absolute;
   right: -30px;  
@@ -91,14 +91,14 @@
   justify-content: center;
   align-items: center;
 }
-.flecha__right{
+.estilo__right{
   font-size:40px
 }
 
 @media(max-width:1180px){
     
 
-     .portada__sexta{
+     .customs{
          position: static;
          
      }
@@ -107,11 +107,11 @@
        display: none;
      }
 
-     .decoration__top{
+     .customs__decoration{
       display: none;
      }
 
-     .cajas__texto{
+     .flechas{
         width: 80%;
      }
 }
@@ -125,29 +125,29 @@
 
 @media(max-width:931px){
      
-     .content__right{
+     .estilo{
         
         width: 50px;
      }
 
-     .content__flecha{
+     .flechas__container{
         width: 50px;
      }
 }
 
 @media(max-width:910px){
      
-     .container__text{
+     .perfiles{
         padding: 20px;
      }
 
-     .content__right{
+     .estilo{
         
       width: 40px;
       right: -30px;
    }
 
-   .content__flecha{
+   .flechas__container{
       width: 40px;
       left: -30px;
    }
@@ -159,7 +159,7 @@
 
 @media(max-width:790px){
     
-  .container__text{
+  .perfiles{
     justify-content: center;
     margin: 0 auto;
   }
@@ -168,7 +168,7 @@
 
 @media(max-width:376px){
      
-  .container__text{
+  .perfiles{
     width:90%;
   }
 }

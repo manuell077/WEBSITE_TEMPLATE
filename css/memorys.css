@@ -72,38 +72,39 @@
 .memorysRight__imagen{
     margin-bottom: 60px;
 }
-.portada__cuatro{
+.viaje{
   display: flex;
   background-color: var(--colorFondoMemory);
   position: relative;
   
 }
-.text__left{
+.viaje__text{
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   gap: 20px;
 }
-.textos{
-   padding: 40px 80px;
-   color:var(--colorBlanco);
-   
-}
-.text__titulo{
+.viaje__titulo{
   text-align: center;
   margin-top:40px;
   color:var(--colorBlanco);
   width: 100%;
   display: flex;
   justify-content: center;
-}
-.portada__title{
+} 
+.viaje__portada{
   width: 50%;
   font-family: "Cardo", bold;
   font-weight: bold;
   color: var(--colorBlanco);
   font-size: 45px;
+}
+
+.text{
+   padding: 40px 80px;
+   color:var(--colorBlanco);
+   
 }
 .text__titlee{
  font-family: "Lato", serif;
@@ -119,18 +120,18 @@
   font-size: 14px;
   color: var(--subtitle);
 }
-.content__img{
+.lugar{
   
  margin-top: 25px;
  padding: 40px 0;
  width: 100%;
  margin-bottom: 25px;
 }
-.img__four{
+.lugar__img{
   
   width: 600px;
 }
-.decoration{
+.decoracion{
   position: absolute;
   top:84%;
   left:1px;

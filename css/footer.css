@@ -8,21 +8,20 @@
   display: flex;
   gap: 10px;
 }
-.text__footer{
-  
+.footer{
   display: flex;
   flex-direction: column;
   gap: 40px;
   height: 100%;
   width: 30%;
 }
-.text__principal{
+.footer__text{
   padding: 0px 30px;
   font-size: 60px;
   font-weight: 600;
   text-align: center;
 }
-.decoration__footer{
+.footer__decoration{
   margin-top: 90px;
   width: 300px;
 }
@@ -31,18 +30,18 @@
   display: flex;
   flex-direction: column;
 }
-.menu__footer{
+.info__footer{
   margin-left: 70px;
   margin-top:20px;
   margin-bottom: 20px;
 }
-.footer__title{
+.info__title{
   font-size: 16px;
   font-family: "Lato", serif;
   font-weight: 900;
   font-style: normal;
 }
-.menu_infomation{
+.infomation{
   padding: 0px 60px;
   width: 100%;
   height: 100%;
@@ -50,11 +49,11 @@
   justify-content: space-between; 
   gap: 10px;
 }
-.menu__info{
+.infomation__menu{
   height: 40px;
   width: 120px;
 }
-.info__items{
+.infomation__items{
   color: var(--color__button);
    font-family: "Lato", serif;
   font-weight: 400;

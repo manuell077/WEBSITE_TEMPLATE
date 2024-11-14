@@ -6,7 +6,6 @@
   box-sizing: border-box;
 }
 
-
 .cuerpo{
   background-color: var(--color__fondo);
 }
@@ -16,42 +15,31 @@
   display: flex;
   flex-direction: column;
 }
-.portada__principal{
+.primary{
 display: flex;
 }
 
-.text{
+.primary__text{
   width: 100%;
   display: flex;
   flex-direction: column;
   padding: 0px 40px;
 }
-.text__left{
+.primary__left{
   font-family: "Cardo", bold;
   font-weight: bold;
   font-style: normal;
   font-size: 65px;
   letter-spacing:1px;
 }
-.subtitle__left{ 
+.primary__subtitle{ 
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
   margin-bottom: 25px;
 
 }
-.imgprincipal{
-  grid-area: portada__img;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.img__rigth{
- width: 80%;
- height: 400px;
- object-fit: contain;
-}
-.button__left{
+.primary__button{
   width: 200px;
   height: 50px;
   border: 1px solid #000;
@@ -63,20 +51,27 @@ display: flex;
   border-radius:5px;
 
 }
-.text__button{
+.primary__textb{
   font-family: "cardo", sans-serif;
   font-weight: bold;
   font-size: 17px;
   font-style: normal;
 
 }
-.font__color{
+.primary__img{
+  grid-area: portada__img;
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  
+  justify-content: center;
 }
-.container__imagen{
+.primary__rigth{
+ width: 80%;
+ height: 400px;
+ object-fit: contain;
+}
+
+
+.cards{
   margin-top: 10%;
   width: 100%;
   display: flex;
@@ -84,36 +79,45 @@ display: flex;
   gap:35px;
 
 }
-.img__items{
+.cards__borde{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cards__color{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+
+.cards__items{
   margin-top: 30%;
   width: 290px;
   height: 200px;
 }
-.imagen__content{
+.cards__content{
   display: flex;
   flex-direction: column;
   margin: 50px;
 }
-.interlineado{
+.cads__interlineado{
   margin-top: 5px;
   background-color: var(--colorNegro);
   width: 10%;
   height: 4px;
  }
- .text__title{
+ .cards__title{
   font-family: "Lato", sans-serif;
   font-weight: bold;
   font-size: 35px;
   font-style: normal;
  }
-.text__subtitle{
+.cards__subtitle{
   margin-top:20px;
 }
-.img__borde{
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
+
 .stylos__left{
   margin-top:-20px;
   width: 70px;
@@ -121,13 +125,13 @@ display: flex;
 
 
 @media(max-width:1306px){
-  .font__color{
+  .cards__color{
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
   }
 
-  .stylo__rigth{
+  .border__rigth{
     display: none;
 
   }
@@ -136,7 +140,7 @@ display: flex;
     display: none;
   }
 
-  .img__borde{
+  .cards__borde{
     justify-content: center;
     
   }
@@ -150,19 +154,19 @@ display: flex;
 
 
 @media(max-width:1375px){
-    .textos{
+    .text{
       padding-top: 5px;
     }
 }
 
 @media(max-width:1230px){
-    .decoration{
+    .decoracion__border{
       display: none;
     }
 }
 
 @media(max-width:1380px){
-    .img__four{
+    .decoracion__border{
        width: 90%;
     }
 }
@@ -182,27 +186,27 @@ display: flex;
 
 @media(max-width:790px){
  
-  .portada__principal{
+  .primary{
     display: flex;
     flex-direction: column;
   }
-  .subtitle__left{
+  .primary__subtitle{
     margin:40px 40px 40px 0px;
   }
- .text__left{
+ .primary__left{
   font-size:50px;
  }
- .img__rigth{
+ .primary__rigth{
   width: 80%;
   margin-bottom:-30px;
   margin-right:20px;
   margin-left: 20px;
  }
- .stylo__rigth{
+ .border__rigth{
    width: 35px;
    height: 578px
  }
- .font__color{
+ .cards__color{
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
@@ -210,6 +214,10 @@ display: flex;
  .stylos__left{
    width: 50px;
  }
+ .titles{
+ display: flex;
+ margin-bottom: 100px;
+}
  .textoGrande__titulo{
   font-size:8vw;
 
@@ -249,11 +257,11 @@ width: 0px;
   width: 100%;
   padding: 0px 30px;
 }
-.portada__cuatro{
+.viaje{
   display: flex;
   flex-direction: column;
 }
-.portada__title {
+.viaje__portada {
     width: 100%;
     font-size: 35px;
 }
@@ -262,44 +270,42 @@ width: 0px;
   margin-bottom: 10px ;
   
 }
-.content__img{
+.lugar{
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 10px;
 }
-.titles{
- display: flex;
- margin-bottom: 100px;
-}
-.img__four {
+.lugar__img {
     width: 70%;
 }
-.decoration {
-    top: 96%;
+
+
+.decoracion__border{
+display: none;
 }
-.decoration__top{
+.customs__decoration{
   display: none;
 }
-.title__six{
+.custom__title{
   width: 100%;
   display: flex;
   justify-content: center;
 }
-.text__six{
+.custom__subtitle{
   width: 60%;
  font-size: 30px;
 }
-.cajas__texto {
+.flechas {
   display: flex;
  flex-direction: column;
   
   
 }
-.content__flecha{
+.flechas__container{
   display: none;
 }
-.content__right{
+.estilo{
   display: none;
 
 }
@@ -311,20 +317,20 @@ width: 0px;
   display: flex;
   flex-direction: column;
 }
-.text__footer{
+.footer{
  width: 100%;
 }
-.decoration__footer{
+.footer__decoracion{
   display: none;
 }
-.menu_infomation{
+.infomation{
   padding: 0px 0px;
 }
-.menu__info{
+.infomation__menu{
  font-size: 15px;
 margin: -3px
 }
-.menu__footer {
+.info__footer {
     margin-left: 13px;
   }
 .derechos__autor{
@@ -349,7 +355,7 @@ margin: -3px
 .scrilbbleTitulos{
   display: none;
 }
-.borde{
+.cards__stylo{
   display: none;
 }
 
@@ -364,13 +370,13 @@ margin: -3px
 
 @media(max-width:1000px){
     
-    .menu_infomation{
+    .infomation{
       padding: 0;
       gap: 10px;
       text-align: center;
     }
 
-    .menu__info{
+    .infomation__menu{
       
       text-align:center;
     }
